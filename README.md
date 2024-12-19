@@ -1,0 +1,1 @@
+This repository demonstrates a common error in 16-bit assembly programming: exceeding the capacity of a register. The `bug.asm` file contains code that attempts to move a value greater than 65535 (the maximum value for a 16-bit register) into the AX register.  The `bugSolution.asm` file shows how to handle such situations properly.
